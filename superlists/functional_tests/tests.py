@@ -100,7 +100,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta = 5
+            delta = 8
         )
 
         # She starts a new list and sess the input is nicely centered
@@ -110,6 +110,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2,
             512,
-            delta = 5
+            delta = 8
         )
         
